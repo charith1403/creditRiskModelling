@@ -1,5 +1,5 @@
 import streamlit as st
-from prediction_helper import predict  # Ensure this is correctly linked to your prediction_helper.py
+from prediction_helper import predict  
 
 # Set the page configuration and title
 st.set_page_config(page_title="Lauki Finance: Credit Risk Modelling", page_icon="📊")
@@ -58,5 +58,4 @@ if st.button('Calculate Risk'):
     st.write(f"Credit Score: {credit_score}")
     st.write(f"Rating: {rating}")
 
-# Footer
-# st.markdown('_Project From Codebasics ML Course_')
+
